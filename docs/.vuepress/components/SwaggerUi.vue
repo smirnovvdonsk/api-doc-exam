@@ -6,13 +6,16 @@
 import { SwaggerUIBundle } from 'swagger-ui-dist'
 import 'swagger-ui/dist/swagger-ui.css'
 import { onMounted } from 'vue'
+import { useSiteData } from 'vuepress/client'
 
 const DIV_ID = 'swagger-ui'
+
+const siteData = useSiteData()
 
 onMounted(() => {
   SwaggerUIBundle({
     dom_id: `#${DIV_ID}`,
-    url: './swagger.yaml',
+    url: `${siteData.value.base}/swagger.yaml`,
   })
 })
 </script>
