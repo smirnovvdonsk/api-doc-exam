@@ -12,7 +12,7 @@ const DIV_ID = 'swagger-ui'
 onMounted(() => {
   SwaggerUIBundle({
     dom_id: `#${DIV_ID}`,
-    url: '/swagger.yaml',
+    url: 'swagger.yaml',
   })
 })
 </script>
