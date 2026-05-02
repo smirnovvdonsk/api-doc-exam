@@ -15,7 +15,7 @@ const siteData = useSiteData()
 onMounted(() => {
   SwaggerUIBundle({
     dom_id: `#${DIV_ID}`,
-    url: `${siteData.value.base}/swagger.yaml`,
+    url: `${siteData.value.base}swagger.yaml`,
   })
 })
 </script>
