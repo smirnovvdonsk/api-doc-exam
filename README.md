@@ -1,4 +1,4 @@
-# vuepress-template-ru
+# api-doc-exam
 
 Домашнее задание №3 по документированию API
 
