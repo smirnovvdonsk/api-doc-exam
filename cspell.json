@@ -1,0 +1,24 @@
+// cSpell Settings
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en,ru",
+  "enabledFileTypes": {
+    "*": false,
+    "markdown": true
+  },
+  // words - list of words to be always considered correct
+  "words": ["журналирование", "зачёркн", "латинница"],
+  // flagWords - list of words to be always considered incorrect
+  // This is useful for offensive words and common spelling errors.
+  // For example "hte" should be "the"
+  "flagWords": ["соовтетствующий"],
+  "patterns": [
+    {
+      "name": "ударение-в-слове",
+      "pattern": "/\\S+&#769;\\S*/g"
+    }
+  ],
+  "ignoreRegExpList": ["ударение-в-слове"]
+}

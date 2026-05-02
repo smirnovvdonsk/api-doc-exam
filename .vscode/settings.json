@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "markdown.preview.fontFamily": "sans-serif",
+  "markdown.extension.print.absoluteImgPath": false,
+  "markdown.extension.list.toggle.candidate-markers": ["-", "*", "+", "1.", "1)"],
+  "markdown.extension.tableFormatter.enabled": true
+}
